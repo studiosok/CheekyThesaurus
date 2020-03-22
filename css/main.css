@@ -1,0 +1,91 @@
+body {
+  font-family: 'Noto Sans TC', sans-serif;
+  color: #464b4f;
+  background: #e8ebed;
+}
+
+.container {
+  justify-content: center;
+  position: relative;
+  width: 1080px;
+  margin: 0 auto;
+}
+
+.container h1 {
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  margin: auto;
+}
+
+#search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+#search p {
+  font-size: 1.2rem;
+  padding: 0;
+  margin-right: 20px;
+  font-weight: bold;
+}
+
+#search input {
+  padding: 5px;
+  width: 300px;
+  font-size: 1.2rem;
+  display: block;
+}
+
+#search button {
+  font-weight: bold;
+  background: #464b4f;
+  color: white;
+  border-radius: 4px;
+  margin-left: 10px;
+  font-size: 1rem;
+  padding: 7px;
+  display: block;
+}
+
+.speech-bubble {
+	position: relative;
+	background: #464b4f;
+	border-radius: .4em;
+  margin: 0 auto 30px;
+  max-width: 275px;
+  padding: .1em;
+  color: white;
+}
+
+.speech-bubble p {
+  margin: 20px;
+}
+
+.speech-bubble:after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 20%;
+	width: 0;
+	height: 0;
+	border: 14px solid transparent;
+	border-top-color: #464b4f;
+	border-bottom: 0;
+	border-right: 0;
+	margin-left: -7px;
+	margin-bottom: -14px;
+}
+
+.results-table {
+  width: 100%;
+  /* display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%; */
+}
