@@ -84,6 +84,21 @@ li {
 	margin-bottom: -14px;
 }
 
+#beforeClick {
+  display:
+}
+
+#afterClick {
+  display: none
+}
+
+#showBox {
+  display: none
+  max-width: 275px
+  color: #464b4f;
+  border: 14px solid #d1d9e0;
+}
+
 .results-table {
   width: 100%;
   /* display: grid;

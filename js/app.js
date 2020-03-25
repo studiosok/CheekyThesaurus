@@ -1,5 +1,7 @@
 $(() => {
 
+
+
 $('#search').submit((e) => {
   e.preventDefault()
   console.log("I've been clicked")
@@ -8,8 +10,16 @@ $('#search').submit((e) => {
   console.log(query)
 
   urbanCall(query)
+  afterClick()
 })
 
+
+function afterClick () {
+  console.log("toggling div")
+  $('#beforeClick').toggle()
+  $('#afterClick').toggle()
+  $('#showBox').text(query)
+}
 
 function displayResults (outputs) {
     console.log(outputs)
@@ -47,3 +57,5 @@ const url = 'https://api.urbandictionary.com/v0/define'
 
 
 })
+
+/*for just one definition - remove forEach() and change output to outputs. add index [] to data.list*/
