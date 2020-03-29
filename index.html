@@ -12,35 +12,39 @@
   <body>
 
   <div class="container">
-    <h1>Cheeky Truths</h1>
-    <div class="speech-bubble">
-      <div id="beforeClick"><p>I only eat one word at a time</p></div>
-      <div id="afterClick"><p>The word you gave me<p></div>
+    <div class="onReset">
+      <button class="reset">Try again</button>
     </div>
+    <h1>Cheeky Truths</h1>
     <div id="beforeClick">
-      <form id="search">
+      <div class="speech-bubble"><p>I only eat one word at a time</p></div>
+
+    <div id="beforeClick">
+      <form class="search">
         <ul>
           <li><input type="text" id="query"/></li>
           <li><button>Yum</button></li>
       </ul>
       </form>
     </div>
-    <div id="afterClick">
-      <div id="showBox">test</div>
-
     </div>
 
-    <table class="table" id="results-table">
-      <thead>
-        <tr>
-          <th>Word</th>
-          <th>Definition</th>
-        </tr>
-      </thead>
-      <tbody>
+    <div id="afterClick">
+      <div class="speech-bubble"><p>The word you gave me</p></div>
+      <div id="showBox"></div>
+    </div>
 
-      </tbody>
-    </table>
+
+    <div  id="afterClicks">
+      <div class="speech-bubble"><p>What you actually meant</p></div>
+      <div id="showDefinition"></div>
+    </div>
+
+
+
+
+<div id="afterClick">
+    </div>
 
   </div>
 

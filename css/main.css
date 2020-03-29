@@ -2,10 +2,11 @@ body {
   font-family: 'Noto Sans TC', sans-serif;
   color: #464b4f;
   background: #e8ebed;
+  margin: auto;
 }
 
 .container {
-  justify-content: center;
+  margin: center;
   position: relative;
   width: 1080px;
   margin: 0 auto;
@@ -13,6 +14,7 @@ body {
 
 .container h1 {
   text-align: center;
+  margin: 20px;
 }
 
 ul {
@@ -23,36 +25,37 @@ li {
   margin: auto;
 }
 
-#search {
+.search {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 10px;
 }
 
-#search p {
+.search p {
   font-size: 1.2rem;
   padding: 0;
   margin-right: 20px;
   font-weight: bold;
 }
 
-#search input {
+.search input {
   padding: 5px;
   width: 300px;
   font-size: 1.2rem;
   display: block;
+  margin: 15px
 }
 
-#search button {
+button {
   font-weight: bold;
   background: #464b4f;
   color: white;
   border-radius: 4px;
-  margin-left: 10px;
   font-size: 1rem;
-  padding: 7px;
+  padding: 12px;
   display: block;
+  margin: 0 auto 10px;
 }
 
 .speech-bubble {
@@ -92,11 +95,33 @@ li {
   display: none
 }
 
-#showBox {
+#afterClicks {
   display: none
-  max-width: 275px
+}
+
+
+#showBox {
+  /*display: none;*/
+  margin: auto;
+  position: relative;
+  max-width: 275px;
   color: #464b4f;
-  border: 14px solid #d1d9e0;
+  margin: 0 auto 30px;
+  border: 2px solid #d1d9e0;
+}
+
+#showDefinition {
+  /*display: none;*/
+  margin: auto;
+  position: relative;
+  max-width: 275px;
+  color: #464b4f;
+  margin: 0 auto 30px;
+  border: 2px solid #d1d9e0;
+}
+
+.onReset {
+  display: none
 }
 
 .results-table {
