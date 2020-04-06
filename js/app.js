@@ -4,7 +4,7 @@ $(() => {
     e.preventDefault()
 
     const query = $('#query').val()
-    console.log(query)
+    // console.log(query)
 
     urbanCall(query)
     afterClick()
@@ -19,12 +19,12 @@ $(() => {
   }
 
   function displayResults (outputs) {
-      console.log(outputs)
-      outputs.forEach((output) => {
+      // console.log(outputs)
+      // outputs.forEach((output) => {
         $('#showDefinition').append(
-            `${output.definition}`
+            `${outputs.definition}`
           )
-      })
+      // })
     }
 
     function displaySearchedWord (output) {
@@ -42,10 +42,8 @@ $(() => {
       }
     })
     // console.log(response.data.list[0].definition)
-    displayResults(response.data.list)
+    displayResults(response.data.list[0])
     displaySearchedWord(response.data.list[0])
-    // $('#testing').text()
-    // Need to make list[] index random
   } catch(error) {
     console.log(error)
   }
@@ -62,8 +60,19 @@ $(() => {
     $('#afterClicks').toggle()
     $('.onReset').toggle()
     $('#query').val("")
+    $('#showDefinition').text("")
   }
 
+
+    $('.slider').click(() => {
+      $('body').toggleClass("lightMode darkMode")
+      $('#darkPs').toggleClass("speech-bubble speech-bubble-dark")
+      $('#darkPss').toggleClass("speech-bubble speech-bubble-dark")
+      $('#darkPsss').toggleClass("speech-bubble speech-bubble-dark")
+      $('#lightPs').toggleClass("speech-bubble-dark speech-bubble")
+      $('#lightPss').toggleClass("speech-bubble-dark speech-bubble")
+      $('#lightPsss').toggleClass("speech-bubble-dark speech-bubble")
+    })
 
 })
 
