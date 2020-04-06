@@ -129,7 +129,6 @@ button {
 
 
 #showBox {
-  /*display: none;*/
   margin: auto;
   position: relative;
   max-width: 275px;
@@ -140,7 +139,6 @@ button {
 }
 
 #showDefinition {
-  /*display: none;*/
   margin: auto;
   position: relative;
   max-width: 275px;
