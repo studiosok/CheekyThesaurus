@@ -72,6 +72,7 @@ $(() => {
     $('#lightPs').toggleClass("speech-bubble-dark speech-bubble")
     $('#lightPss').toggleClass("speech-bubble-dark speech-bubble")
     $('#lightPsss').toggleClass("speech-bubble-dark speech-bubble")
+    $('h4').toggleClass("lightModeSwitch darkModeSwitch")
   })
 
 })
