@@ -140,6 +140,9 @@ button {
   margin: 0 auto 30px;
   border: 2px solid #d1d9e0;
   background-color: #d1d9e0;
+  border-radius: 4px;
+  padding: 10px
+
 }
 
 #showDefinition {
@@ -150,6 +153,8 @@ button {
   margin: 0 auto 40px;
   border: 2px solid #d1d9e0;
   background-color: #d1d9e0;
+  border-radius: 4px;
+  padding: 10px
 }
 
 .onReset {
