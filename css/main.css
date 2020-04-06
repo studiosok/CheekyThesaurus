@@ -80,6 +80,10 @@ button {
   margin: 0 auto 10px;
 }
 
+.reset {
+  margin: 0 auto 40px;
+}
+
 .speech-bubble {
 	position: relative;
 	background: #464b4f;
@@ -143,7 +147,7 @@ button {
   position: relative;
   max-width: 275px;
   color: #464b4f;
-  margin: 0 auto 30px;
+  margin: 0 auto 40px;
   border: 2px solid #d1d9e0;
   background-color: #d1d9e0;
 }
