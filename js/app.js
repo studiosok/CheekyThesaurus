@@ -64,15 +64,15 @@ $(() => {
   }
 
 
-    $('.slider').click(() => {
-      $('body').toggleClass("lightMode darkMode")
-      $('#darkPs').toggleClass("speech-bubble speech-bubble-dark")
-      $('#darkPss').toggleClass("speech-bubble speech-bubble-dark")
-      $('#darkPsss').toggleClass("speech-bubble speech-bubble-dark")
-      $('#lightPs').toggleClass("speech-bubble-dark speech-bubble")
-      $('#lightPss').toggleClass("speech-bubble-dark speech-bubble")
-      $('#lightPsss').toggleClass("speech-bubble-dark speech-bubble")
-    })
+  $('.slider').click(() => {
+    $('body').toggleClass("lightMode darkMode")
+    $('#darkPs').toggleClass("speech-bubble speech-bubble-dark")
+    $('#darkPss').toggleClass("speech-bubble speech-bubble-dark")
+    $('#darkPsss').toggleClass("speech-bubble speech-bubble-dark")
+    $('#lightPs').toggleClass("speech-bubble-dark speech-bubble")
+    $('#lightPss').toggleClass("speech-bubble-dark speech-bubble")
+    $('#lightPsss').toggleClass("speech-bubble-dark speech-bubble")
+  })
 
 })
 

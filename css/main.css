@@ -20,11 +20,14 @@ body {
 .container h1 {
   text-align: center;
   margin: 20px;
+  font-weight: bold;
+  letter-spacing: 5px;
 }
 
 h4 {
   text-align: center;
   margin: 10px;
+  letter-spacing: 2px;
 }
 
 ul {
@@ -148,7 +151,7 @@ button {
 }
 
 .darkMode {
-  color: #464b4f;
+  color: #e8ebed;
   background: #000;
 }
 
@@ -227,9 +230,4 @@ input:checked + .slider:before {
 .slider.round:before {
   border-radius: 50%;
   border: #464b4f;
-}
-.results-table {
-  width: 100%;
-  /* display: grid;
-  grid-template-columns: 20% 20% 20% 20% 20%; */
 }
